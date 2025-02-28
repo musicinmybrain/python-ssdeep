@@ -177,10 +177,10 @@ setup(
     setup_requires=[
         "cffi>=1.0.0",
     ],
-    tests_require=[
-        "pytest",
-    ],
     extras_require={
+        "test": [
+            "pytest",
+        ],
         "docstest": [
             "doc8",
             "readme_renderer >= 16.0",
